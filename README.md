@@ -7,9 +7,9 @@ Provide three arguments: a factory address (or contract that will call CREATE2),
 ```sh
 $ git clone https://github.com/0age/create2crunch
 $ cd create2crunch
-$ export FACTORY="0xa779284f095ef2eBb8ee26cd8384e49C57b26996"
-$ export CALLER="<YOUR_ROPSTEN_ADDRESS_OF_CHOICE_GOES_HERE>"
-$ export INIT_CODE_HASH="<HASH_OF_YOUR_CONTRACT_INIT_CODE_GOES_HERE>"
+$ export FACTORY="0x0000000000FFe8B47B3e2130213B802212439497"
+$ export CALLER="0x0000000000000000000000000000000000000000"
+$ export INIT_CODE_HASH=""
 $ cargo run --release $FACTORY $CALLER $INIT_CODE_HASH
 ```
 
